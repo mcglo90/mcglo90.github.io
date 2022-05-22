@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt Challenge</title>
+    <link rel="icon" type="image/x-icon" href="https://freesvg.org/img/bau-guardar-2.png">
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Treasure Hunt Challenge</h1>
+    <h3>Find the hidden treasure!</h3>
+    <ul>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, you lose</li>
+      <li>If you click on the treasure, you win</li>
+    </ul>
+    <img src="https://i.etsystatic.com/10919371/r/il/76a211/1604939445/il_794xN.1604939445_29jn.jpg" alt="pirate flag" height="100px">
+
+    <table>
+      <tr>
+        <td id=0 onclick="treasure(0)">?</td>
+        <td id=1 onclick="treasure(1)">?</td>
+        <td id=2 onclick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td id=3 onclick="treasure(3)">?</td>
+        <td id=4 onclick="treasure(4)">?</td>
+        <td id=5 onclick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td id=6 onclick="treasure(6)">?</td>
+        <td id=7 onclick="treasure(7)">?</td>
+        <td id=8 onclick="treasure(8)">?</td>
+      </tr>
+    </table>
+
+    <button id="reset" type="button" onClick="location.reload()">Restart Game</button>
+
+    <footer>Gloria and Alvin <a href="https://google.com" target="_blank">Google</a></footer>
+<script type="text/javascript" src="treasurehunt.js"></script>
+
+  </body>
+
+</html>

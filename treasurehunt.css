@@ -1,0 +1,53 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-image:url("https://i.pinimg.com/564x/27/99/ec/2799ec3847ca53eb8a3f0631b9cf07ce.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+h1{
+  color:black;
+  animation-duration: 2s;
+  animation-name: bounceIn;
+
+
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  table-layout: fixed;
+  width: 200px;
+  height: 200px;
+}
+
+
+ul{
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+td:hover {
+  background-color: green;
+}
+
+
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
